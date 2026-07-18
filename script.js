@@ -1,7 +1,7 @@
 const title = document.querySelector("h1");
 
 title.addEventListener("click", function() {
-    title.textContent = "You found my hidden message! Thanks for visting my website! This is my first one, so please excuse any glitches or bugs!"
+    title.textContent = "You found my hidden message! Thanks for visiting my first website. I'm still learning, so there may be a few glitches or bugs along the way!"
 });
 
 
