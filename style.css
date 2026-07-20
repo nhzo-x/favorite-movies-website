@@ -109,7 +109,7 @@ footer{
 }
 
 .backgroundinfo{
-    font-size: 10px;
+    font-size: 8.5px;
     font-style:oblique;
     color: gray;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -164,4 +164,16 @@ ol{
 .star:hover{
     color: gold;
     transform: scale(1.2);
+}
+
+.actor-link{
+    font-size: 8.5px;
+    font-weight: bold;
+    color: darkblue;
+    text-decoration:none;
+}
+
+.actor-link:hover{
+    text-decoration: underline;
+    color: purple;
 }
