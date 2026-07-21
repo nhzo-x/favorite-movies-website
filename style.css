@@ -194,6 +194,24 @@ ol{
 .abttext:hover{
     transform: translateY(-5px);
 }
+.extraInfo{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkblue;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.extraInfo:hover{
+    transform: translateY(-5px);
+}
 
 
 
@@ -226,4 +244,101 @@ h2{
     padding: 5px;
     margin: 5px;
     border-radius: 0;
+}
+
+.moviequestion{
+    animation: fadeIn 0.8s ease;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#movieButton{
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border-style:solid;
+    border-color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#movieButton:hover{
+    transform: translateY(-5px);
+    color:purple;
+
+}
+
+#moiveButton:active{
+    transform: scale(0.95);
+}
+
+.loadingText{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+}
+
+.movieResultText{
+    text-align: center;
+    color: purple;
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+}
+.fadeIn{
+    animation: fadeIn 0.8s ease;
+    
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.choosingMovie{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.collection{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.collection h2{
+    color: black
+}
+
+
+.collection p{
+    color: black;
+    font-size: 10px;
+}
+
+@media (max-width: 600px){
+    body {
+        padding: 10px;
+
+    }
+    h1 {
+    font-size: 32px;
+    
+}
+#movieButton{
+    width: 90%;
+    }
+.movieResultText {
+    width: 90%px;
+    }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
 }
