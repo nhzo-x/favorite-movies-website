@@ -342,3 +342,35 @@ img{
     height: auto;
 }
 }
+
+.honorableMentions{
+    text-align: center;
+    background-color: white;
+    padding:5px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.honorableMentions li{
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.honorableMentions h2{
+    color: black;
+}
+
+.honorableMentions a{
+    color: black;
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: lighter;
+    display: inline;
+    margin-bottom: 0;
+}
