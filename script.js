@@ -43,7 +43,7 @@ const movies =[
     "Ferris Bueller's Day Off",
     "Get Out",
     "Black Panther",
-    "Michael"
+    "Michael",
     "Erin Brockovich",
     "The Shawshank Redemption",
     "Dumb and Dumber",
