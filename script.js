@@ -44,6 +44,19 @@ const movies =[
     "Get Out",
     "Black Panther",
     "Michael"
+    "Erin Brockovich",
+    "The Shawshank Redemption",
+    "Dumb and Dumber",
+    "Forrest Gump",
+    "Dog Day Afternoon",
+    "The Karate Kid",
+    "Superbad",
+    "Jerry Maguire",
+    "Barbie",
+    "School of Rock",
+    "Pretty In Pink",
+    "Rush Hour",
+    "Trading Places"
 ];
 
 const loadingMessage = [
