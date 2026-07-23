@@ -374,7 +374,6 @@ img{
     display: inline;
     margin-bottom: 0;
 }
-
 .bottom-nav{
     text-align: center;
     margin-bottom: 20px;
@@ -422,7 +421,7 @@ img{
     padding: 40px;
     margin: 20px;
     text-align: center;
-    border-bottom: 2px soild #ddd;
+    border-bottom: 2px solid #ddd;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -433,6 +432,7 @@ img{
 
 .actor-image{
     width: 250px;
+    max-width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 30px;
@@ -478,4 +478,26 @@ img{
 
 .actorbackground{
     font-size: 10px;
+}
+
+.movie-poster{
+    width: 400px;
+    max-width: 100%;
+    border-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    height:auto;
+    margin: 20px auto;
+    display: none;
+}
+
+@media (max-width: 600px){
+    .actor-card{
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .actor-name{
+        font-size: 26px;
+    }
 }
