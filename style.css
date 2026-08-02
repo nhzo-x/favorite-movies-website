@@ -529,3 +529,76 @@ img{
     margin-top: 10px;
     font-style: italic;
 }
+
+.movie-card img{
+    width: 350px;
+    height: auto;
+    background-color: #f8f8f8;
+    padding: 4.5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+    animation: fadeIn 0.8s ease;
+}
+
+.movie-card img:hover{
+    transform: scale(1.05);
+}
+
+.movie-grid{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;
+}
+
+.movie-container{
+    background-color: white;
+    padding:30px;
+    max-width: 1300px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.movies-container{
+    background-color: white;
+    padding:30px;
+    max-width: 1300px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.release-date{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight:bold;
+    color: darkblue;
+}
+
+.movie-text{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    color: gray;
+    font-weight: lighter;
+}
